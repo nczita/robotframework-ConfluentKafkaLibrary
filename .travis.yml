@@ -14,4 +14,6 @@ before_install:
 - pip install .
 
 script:
-- python3 -m robot examples/
+- python3 -m robot -d ./docs examples/
+- ls
+- ls ./docs
